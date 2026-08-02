@@ -13,29 +13,7 @@ IP Address + Open Ports → Binary Search → Threat Report
 - Shows comparison count — proves binary search efficiency
 - Works as a post-scan analysis tool after NetRecon
 
-## 🔐 Risky Ports Database
-
-| Port | Service | Risk |
-|---|---|---|
-| 21 | FTP | Unencrypted file transfer |
-| 22 | SSH | Brute force target |
-| 23 | Telnet | Plaintext credentials |
-| 25 | SMTP | Email spoofing |
-| 135/139/445 | SMB | EternalBlue / WannaCry |
-| 1433 | MSSQL | Database exposure |
-| 3306 | MySQL | Database exposure |
-| 3389 | RDP | Remote desktop attacks |
-| 5900 | VNC | Remote access |
-| 6379 | Redis | Unauthenticated access |
-| 8080 | HTTP Alt | Web attacks |
-| 9200 | Elasticsearch | Data exposure |
-
-## ⚡ Why Binary Search?
-
-| Method | Time Complexity | 1000 IPs |
-|---|---|---|
-| Linear Search | O(n) | 1000 comparisons |
-| Binary Search | O(log n) | ~10 comparisons |
+|
 
 Binary search is **100x faster** for large threat databases.
 
